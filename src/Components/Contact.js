@@ -2,10 +2,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="contact-section"> {/* Add the class to the section */}
+    <section className="contact-section"> 
       <h2>Contact</h2>
       <p>Contact me for any Inquiries</p>
-      <form className="contact-form"> {/* Add the class to the form */}
+      <form className="contact-form"> 
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" />
         <label htmlFor="email">Email:</label>
